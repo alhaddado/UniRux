@@ -1,0 +1,17 @@
+/Users/omaralhaddad/Projects/UniRux/Temp/bin/Debug/UnityEngine.dll
+/Users/omaralhaddad/Projects/UniRux/Temp/bin/Debug/UnityEditor.dll
+/Users/omaralhaddad/Projects/UniRux/Temp/bin/Debug/UnityEngine.UI.dll
+/Users/omaralhaddad/Projects/UniRux/Temp/bin/Debug/UnityEngine.Networking.dll
+/Users/omaralhaddad/Projects/UniRux/Temp/bin/Debug/Mono.Cecil.dll
+/Users/omaralhaddad/Projects/UniRux/Temp/bin/Debug/Unity.SerializationLogic.dll
+/Users/omaralhaddad/Projects/UniRux/Temp/bin/Debug/Unity.DataContract.dll
+/Users/omaralhaddad/Projects/UniRux/Temp/bin/Debug/ICSharpCode.NRefactory.dll
+/Users/omaralhaddad/Projects/UniRux/Temp/bin/Debug/Unity.UNetWeaver.dll
+/Users/omaralhaddad/Projects/UniRux/Temp/bin/Debug/Unity.UNetWeaver.dll.mdb
+/Users/omaralhaddad/Projects/UniRux/Temp/bin/Debug/Unity.CecilTools.dll
+/Users/omaralhaddad/Projects/UniRux/Temp/bin/Debug/Mono.Cecil.Pdb.dll
+/Users/omaralhaddad/Projects/UniRux/Temp/bin/Debug/Mono.Cecil.Mdb.dll
+/Users/omaralhaddad/Projects/UniRux/Temp/bin/Debug/Assembly-CSharp.dll.mdb
+/Users/omaralhaddad/Projects/UniRux/Temp/bin/Debug/Assembly-CSharp.dll
+/Users/omaralhaddad/Projects/UniRux/obj/Debug/Assembly-CSharp.dll
+/Users/omaralhaddad/Projects/UniRux/obj/Debug/Assembly-CSharp.dll.mdb

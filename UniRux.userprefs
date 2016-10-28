@@ -1,0 +1,15 @@
+﻿<Properties RefactoringSettings.EnableRefactorings="True" StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/StoreActionsBase.cs">
+    <Files>
+      <File FileName="Assets/StoreActionsBase.cs" Line="79" Column="2" />
+      <File FileName="Assets/Store.cs" Line="43" Column="1" />
+      <File FileName="Assets/StateProvider.cs" Line="6" Column="31" />
+      <File FileName="Assets/User.cs" Line="8" Column="25" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
