@@ -24,24 +24,14 @@ public class RuxStore<TState> where TState : RuxState
 
 	bool Logging = true;
 
-	private Queue<StoreActionContainer> queue;
-
 	public RuxStore(TState initialState, RuxProvider<TState> sProv)
 	{
 		state = initialState;
 		provider = sProv;
-		queue = new Queue<StoreActionContainer>();
 	}
 
 	public void Dispatch(StoreActionContainer action) 
 	{
-		if (isDispatching)
-		{
-			// queue actions or allow multi/threaded?
-			Debug.Log("QUEUEUOOM");
-			queue.Enqueue (action);
-			return;
-		}
 
 		isDispatching = true;
 
@@ -67,11 +57,4 @@ public class RuxStore<TState> where TState : RuxState
 		// inform listeners of changes
 		onStateChanged(state);
 	}
-
-	private void DispatchQueued()
-	{
-		if (queue.Count>0)
-			Dispatch(queue.Dequeue());
-	}
-
 }
