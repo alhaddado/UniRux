@@ -34,10 +34,12 @@ public class StoreManager : MonoBehaviour {
 		// create an instance of our Actions
 		var userActions = new UserActions(userStore);
 
-		yield return new WaitForSeconds(3);
+		yield return new WaitForSeconds(1);
 		// subscribe to state changes
 		userStore.onStateChanged += (UserState obj) => {
-			UITextBindings["Text"].text = obj.ToString();;
+
+			if (UITextBindings.ContainsKey("Text"))
+				UITextBindings["Text"].text = obj.ToString();;
 			// Debug.Log("CALLBACK <color=green>" + obj.ToString() + "</color>");
 		};
 

@@ -4,9 +4,11 @@ using System.Collections;
 public enum StoreActionType
 {
 	LoginRequest,
-	LoginResponseSuccess,
-	LoginResponseFailed
-
+	LoginSuccess,
+	LoginFailed,
+	RegisterRequest,
+	RegisterSuccess,
+	RegisterFailed
 }
 
 public interface IPayload
@@ -33,4 +35,10 @@ public class StoreActionsBase <TState>  where TState : RuxState
 	{
 		_store.Dispatch (container);
 	}
+
+	protected StoreActionContainer MakeContainer(StoreActionType type, IPayload data)
+	{
+		return new StoreActionContainer() {type = type, data = data};
+	}
+
 }

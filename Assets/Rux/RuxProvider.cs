@@ -4,9 +4,8 @@ using System.Collections;
 public class RuxProvider<TState> where TState : RuxState
 {
 	/// <summary>
-	/// Provide the next state from current State and Action
-	/// switch on (action.type) in your override method 
-	/// and set new state for each action type you defined in StoreActionTypes Enum
+	/// Provide the next state from current State and Action. 
+	/// Set new state for each action type you defined in StoreActionTypes
 	/// </summary>
 	/// <param name="state">State.</param>
 	/// <param name="action">Action.</param>
